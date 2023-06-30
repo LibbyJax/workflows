@@ -13,12 +13,18 @@
             "name": "Max Hutschenreiter",
             "email": "max@42coders.com",
             "role": "Developer"
+        },
+        {
+            "name": "Matthew Libby",
+            "email": "libbyjax@hotmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": ">7.2",
-        "barryvdh/laravel-dompdf": "^0.9.0|^1.0|^2.0",
-        "doctrine/dbal": "^3.4",
+        "php": ">=8.1",
+        "laravel/framework": "^10.10",
+        "barryvdh/laravel-dompdf": "^2.0",
+        "doctrine/dbal": "^3.5",
         "guzzlehttp/guzzle": "^7",
         "illuminate/support": "*"
     },
@@ -39,7 +45,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
